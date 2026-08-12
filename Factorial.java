@@ -1,10 +1,15 @@
-class Factorial {
-    public static int factorial(int n) {
-        int ans = 1;
-        for (int i = 2; i <= n; i++) {
-          ans = ans * i;
+public class Factorial {
+    public static int calculation(int n){
+        int fact=1;
+        for(int i=1;i<=n;i++){
+            fact=fact*i;
         }
-        return ans;
+        return fact;
     }
-    
+    public static void main(String[] args) {
+        int n=5;
+        int result=calculation(n);
+        System.out.println("Factorial of "+n+" is: "+result);
+    }
+
 }
