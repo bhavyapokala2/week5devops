@@ -10,6 +10,7 @@ public class Factorial {
         int n=5;
         int result=calculation(n);
         System.out.println("Factorial of "+n+" is: "+result);
+        System.out.println("Successfull")
     }
 
 }
