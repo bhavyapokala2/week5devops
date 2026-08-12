@@ -1,7 +1,5 @@
-class TestFactorial {
-    public static void main(String[] args) {
-        int n = 5;
-        int result = Factorial.factorial(n);
-        System.out.println("Factorial of " + n + " is: " + result);
+class TestFactorial{
+    public static void main(String[] args){
+        System.out.println("Factorial of 5 is: "+Factorial.calculation(5));
     }
 }
